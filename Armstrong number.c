@@ -13,7 +13,7 @@ void main()
       rem=num%10;
       rem=pow(rem,no_of_digits);
       sum=sum+rem;
-      num/=10
+      num/=10;
     }
   if(sum==i)
     printf("%d is Armstrong number.",i);

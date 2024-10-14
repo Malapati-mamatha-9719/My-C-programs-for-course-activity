@@ -16,6 +16,6 @@ void main()
     if(b>d)
       printf("b is big.");
     else
-      printf("c is big.");
+      printf("d is big.");
   }
 }

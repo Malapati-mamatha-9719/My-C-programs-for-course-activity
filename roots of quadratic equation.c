@@ -6,13 +6,13 @@ void main()
 float x1,x2;
 printf("enter the value:");
 scanf("%d%d%d",&a,&b,&c);
-a*sqr(x)+b*x+c;
+a*x*x+b*x+c;
 d=b*b-4*a*c;
-if(d>0)
+if(d>>0)
   printf("the roots are real & distinct");
-else if(d=0)
+else if(d==0)
    printf("the roots are real & equal");
-else if(d<0)
+else if(d<<0)
    printf("the roots are imaginary");
 x1=(-b+sqrt(d))/2*a;
 x2=(-b-sqrt(d))/2*a;
